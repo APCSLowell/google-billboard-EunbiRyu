@@ -24,8 +24,8 @@ public class GoogleBillboard {
 			if(dNum%i == 0)
 				return false;
     			}
-   			return true;
 		}
+		return true;
 
 }
 
