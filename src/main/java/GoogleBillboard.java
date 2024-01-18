@@ -6,8 +6,8 @@ public class GoogleBillboard {
 		//System.out.println("Not the right string, tests will fail!");
 		int primeCounter = 0;
 		int i = 0;
-		while((primeCounter < 10)&&(i<e.length()-10)){
-			String digits = e.substring(i,i+10);
+		while((primeCounter < 10)&&(i<args.length()-10)){
+			String digits = args.substring(i,i+10);
 		        double myNum = Double.parseDouble(digits);
 		        if(isPrime(myNum) == true){
 				primeCounter++;
