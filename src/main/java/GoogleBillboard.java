@@ -21,12 +21,12 @@ public class GoogleBillboard {
 			return false;
 		}else{
 			for(int i=2; i<= Math.sqrt(dNum); i++){
-				if(dNum%i == 0){
-					return false;
+				if(dNum%i != 0){
+					return true;
     				}
 			}
 		}
-		return true;
+		return false;
 	}
 
 }
