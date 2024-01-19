@@ -16,8 +16,7 @@ public class GoogleBillboard {
 	      		}
 	  	}
 	}
-	
-	}  
+  
 	public static boolean isPrime(double dNum)  
 	{
 		if(dNum < 2){
